@@ -43,8 +43,8 @@ if(isset($_POST['submit'])) {
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com'; // SMTP server
             $mail->SMTPAuth   = true;
-            $mail->Username = 'kushvaishnav234@gmail.com'; // Your Gmail username
-            $mail->Password = 'bixzptrcnjjfkfzq'; // Your Gmail app password
+            $mail->Username = 'Your email ID'; // Your Gmail username
+            $mail->Password = 'email password'; // Your Gmail app password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587; // TCP port to connect to
             
